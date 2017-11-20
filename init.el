@@ -52,6 +52,11 @@ values."
      spell-checking
      syntax-checking
      ;; version-control
+     (shell :variables
+	    shell-default-positon 'bottom
+	    shell-default 30
+	    shell-default-term-shell "/bin/bash"
+	    )
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
