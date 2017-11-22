@@ -35,11 +35,12 @@ values."
      ;; Example of useful layerThis variable can also be set as a file-local or directory-local variable for additional control per projects you may want to use right away.
      ;; Uncommentsudo apt-get install cscope some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
-     ;; ----------------------------------------------------------------
+     ;; ---------------------------------------------------------------- 
      helm
-     gtags
+     (gtags :variables gtags-enable-by-default t)
      cscope
-     auto-completion
+     (auto-completion : variables
+		      auto-completion-enable-snippets-in-popup t)
      better-defaults
      emacs-lisp
      c-c++
@@ -66,7 +67,7 @@ values."
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
-   dotspacemacs-excluded-packages '()
+   dotspacemacs-excluded-packages '(cscope)
    ;; Defines the behaviour of Spacemacs when installing packages.
    ;; Possible values are `used-only', `used-but-keep-unused' and `all'.
    ;; `used-only' installs only explicitly used packages and uninstall any
