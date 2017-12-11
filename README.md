@@ -5,3 +5,7 @@ sudo pip install --upgrade "jedi>=0.9.0" "json-rpc>=1.8.1" "service_factory>=0.1
 sudo pip install flake8
 sudo pip install hy
 ```
+# when brower c code. create GTAGS first.
+```
+ gtags --gtagslabel=ctags
+```
