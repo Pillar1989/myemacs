@@ -22,5 +22,5 @@ emacs --insecure
 ### install emacs
 ```
 sudo apt-get update
-sudo apt-get install emacs-snapshot
+sudo apt-get install emacs
 ```
