@@ -19,3 +19,8 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 #first boot
 emacs --insecure
 ```
+### install emacs
+```
+sudo apt-get update
+sudo apt-get install emacs-snapshot
+```
