@@ -14,7 +14,7 @@ fc-cache -f -v ~/.fonts/adobe-fonts/source-code-pro
 ```
 ### install spacemacs
 ```
-git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+git clone --depth 1 https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
 #first boot
 emacs --insecure
