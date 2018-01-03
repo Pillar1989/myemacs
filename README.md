@@ -5,7 +5,7 @@ sudo pip install --upgrade "jedi>=0.9.0" "json-rpc>=1.8.1" "service_factory>=0.1
 ```
 ### when brower c code. create GTAGS first.
 ```
- gtags --gtagslabel=ctags
+#refer to https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Btags/gtags
 ```
 ### install font
 ```
